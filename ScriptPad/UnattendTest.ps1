@@ -189,7 +189,7 @@ Write-Host -ForegroundColor Cyan "Set Unattend.xml at $AuditUnattendPath"
 $UnattendXml | Out-File -FilePath $AuditUnattendPath -Encoding utf8
 
 Write-Host -ForegroundColor Cyan 'Use-WindowsUnattend'
-Use-WindowsUnattend -Path 'C:\' -UnattendPath $AuditUnattendPath -Verbose
+Use-WindowsUnattend -Online -UnattendPath $AuditUnattendPath -Verbose
 
 #================================================
 #  [PostOS] AutopilotOOBE CMD Command Line
