@@ -1,4 +1,3 @@
-﻿
 #================================================
 #   [PreOS] Update Module
 #================================================
@@ -82,7 +81,7 @@ $AutopilotOOBEJson = @'
                    "IsPresent":  true
                },
     "GroupTag":  "Lab",
-    "AddToGroup": "",
+    "AddToGroup": "Test",
     "AddToGroupOptions":  [
                     "sg-GYMKG",
                     "sg-GYMWM"
