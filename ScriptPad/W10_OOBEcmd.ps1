@@ -86,16 +86,13 @@ $AutopilotOOBEJson = @'
     "Hidden":  [
                    "AssignedComputerName",
                    "AssignedUser",
-                   "PostAction",
-                   "GroupTag",
-                   "Assign",
                    "AddToGroup",
                    "AddToGroupOptions"
                ],
     "PostAction":  "Quit",
     "Run":  "NetworkingWireless",
     "Docs":  "https://google.com/",
-    "Title":  "AkosCloud Autopilot Register"
+    "Title":  "WinXPerts4all Autopilot Register"
 }
 '@
 If (!(Test-Path "C:\ProgramData\OSDeploy")) {
